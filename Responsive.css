@@ -33,7 +33,7 @@
         height: 400px;
     }
     .coffee_cup img{
-        width: 19rem;
+        width: 19.625rem;
     }
     .coffee_cup_one{
         left: 0;
@@ -49,13 +49,17 @@
         right: 0;
         bottom: -20%;
         flex-direction: column;
+        align-items: center;
     }
     .img-card {
         width: 20.9375rem;
-        height: 3800px;
+        height: 3600px;
         padding: 0;
         margin: 0;
         flex-direction: column;
+    }
+    .third_property img {
+        height: 35rem;
     }
     .heading-three h3 {
         width: 20.9375rem;

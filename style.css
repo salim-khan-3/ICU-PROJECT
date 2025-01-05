@@ -130,7 +130,7 @@
     width: 90rem;
     height: 57rem;
     padding: 14.375rem 4rem 6.5rem 4rem;
-    background-color: var(--darkgray);
+    background-color:var(--darkgray);
     display: flex;
     flex-wrap: wrap;
     gap: 0.9rem;
