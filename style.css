@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+/* body{
+    background-color: #dddad6;
+} */
+:root {
+    --coffee: #A36A4F;
+    --white: #ffffff;
+    --gray:#363031;
+    --darkgray:#535151;
+    --pink:#ECDAC4;
+  }
+
+
+.main-container {
+    width: 90rem;
+    height: 107.5625rem;
+    margin: auto;
+}
+.coffee_shop {
+    width: 90rem;
+    height: 50.5625rem;
+    display: flex;
+    gap: 140px;
+    background-color: var(--white);
+}
+.coffee_energy {
+    width: 29rem;
+    height: 29.125rem;
+    padding: 0rem 3.5rem 0rem 0rem;
+    margin: 9.81rem 0rem 0rem 7.875rem;
+}
+.coffee_energy h2 {
+    font-family: Playfair Display;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height:5rem;
+    text-align: left;
+    color: var(--darkgray);
+}
+.coffee_energy p {
+    font-family: Playfair Display;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height:2rem;
+    text-align: left; 
+    color: var(--gray);
+    margin-top: 2rem;
+}
+
+ .btn{
+    font-family:Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--coffee);
+    padding: 1.5rem 3rem;
+    border-radius: 2.25rem;
+    line-height: 1.125rem;
+    text-decoration: none; 
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+} 
+.coffee_right {
+    width: 37.03rem;
+    height: 37.03rem;
+    position: relative;
+    top: 4rem;
+}
+.coffee_cup_one{
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+}
+
+.hero_container {
+    position: relative;
+}
+.customer_part {
+    background-color:var(--pink) ;
+    padding: 1.5rem 6rem;
+    width: 54.875rem;
+    height: 11.75rem;
+    margin: auto;
+    position: absolute;
+    border-radius: 5rem;
+    bottom: -10%; 
+    right: 20%;
+    display: flex;
+    gap: 5.5rem;
+}
+.same_excellent {
+    width: 10.625rem;
+    height: 8.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+.para p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;  
+}
+.coffee_img {
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prise {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;    
+}
+/* images card section part start  */
+.img-card {
+    width: 90rem;
+    height: 57rem;
+    padding: 14.375rem 4rem 6.5rem 4rem;
+    background-color: var(--darkgray);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+}
+.first_hr {
+    width: 205px;
+    height: 6px;
+    margin: 1.5rem 0rem 4rem 0rem;
+    background-color:var(--white);
+}
+.horizontal{
+   width: 182px;
+   height: 4px;
+   background-color: var(--white);
+}
+.heading-three h3 {
+    font-family: Playfair Display;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: var(--white);
+}
+.same_width {
+    width: 250px;
+}
+.top_lavel {
+    margin-top: 0.625rem;
+}
+.relax h3 {
+    margin: 1rem 0rem 0.625rem 0rem;
+}
+/* images card section part end  */

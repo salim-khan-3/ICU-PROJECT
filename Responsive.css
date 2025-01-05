@@ -1,0 +1,79 @@
+@media(min-width:0px)and (max-width:375px){
+    .main-container {
+        width: 23.4375rem;
+        height: auto;
+        padding: 3rem 1.25rem 0rem ;
+        margin: 0;
+    }
+    .coffee_shop {
+        width: 20.9375rem;
+        height:81.25rem;
+        margin: 0;
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+    }
+    .coffee_energy {
+        width: 20.9375rem;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .coffee_energy h2 {
+        font-size: 2.5rem;
+        line-height:3rem;
+        text-align: center;
+    }
+    .coffee_energy p {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .coffee_right {
+        width: 20.9375rem;
+        height: 400px;
+    }
+    .coffee_cup img{
+        width: 19rem;
+    }
+    .coffee_cup_one{
+        left: 0;
+    }
+    .coffee_right {
+        width: 20.9375rem;
+        height: 650px;
+    }
+    .customer_part {
+        width: 20.9375rem;
+        height: auto;
+        gap: 1rem;
+        right: 0;
+        bottom: -20%;
+        flex-direction: column;
+    }
+    .img-card {
+        width: 20.9375rem;
+        height: 3800px;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    .heading-three h3 {
+        width: 20.9375rem;
+        height: auto;
+        text-align: center;
+    }
+    .first_hr {
+        width: 17.5rem;
+        margin-left: 1.25rem;
+    }
+    .horizontal{
+        margin-left: 5rem;
+     }
+    .common_card img {
+        width: 20.9375rem;
+    }
+    .home {
+        margin-top: 20.625rem;
+    }
+    
+}
